@@ -8,12 +8,10 @@ https://www.locyanfrp.cn
 ## MiFengの主页
 https://imbee.top
 ## Mxd's Planet
-https://www.mxdyeah.top
+https://www.mxdyeah.com
 ## 迪哥闯世界粉丝服：
 https://www.dgcsj.top
 ## 枫屿团队：
 https://www.zako.ltd
-## 每天BBS论坛：
-https://www.mtbbs.top
 ## 瑞白云IDC：
 https://yywlgm.cn

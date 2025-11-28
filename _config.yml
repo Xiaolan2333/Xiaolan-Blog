@@ -102,5 +102,5 @@ theme: ayer
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/xiaolan111111/xiaolan111111.github.io.git
+  repo: https://github.com/Xiaolan2333/xiaolan111111.github.io.git
   branch: main

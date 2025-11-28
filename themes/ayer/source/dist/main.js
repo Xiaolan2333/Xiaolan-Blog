@@ -70,7 +70,7 @@
         const styleTitle2 = "font-size:12px;color: rgb(135,206,250);";
         const styleContent = "color: rgb(135,206,250);";
         const title1 = " __  __  _                   _                 \n \\ \\/ / (_)   __ _   _ __   | |   __ _   _ __  \n  \\  /  | |  / _\` | | '_ \\  | |  / _\` | | '_ \\ \n  /  \\  | | | (_| | | | | | | | | (_| | | | | |\n /_/\\_\\ |_|  \\__,_| |_| |_| |_|  \\__,_| |_| |_|";
-        const content = `\n主页: https://www.xiaolan.xin\nGithub: https://github.com/xiaolan111111`;
+        const content = `\n主页: https://www.xiaolan.xin\nGithub: https://github.com/Xiaolan2333`;
         console.info(`%c${title1} %c${content}`, styleTitle1, styleTitle2);
 	}(jQuery), e = {
 			id: "JGjrOr2rebvP6q2a",
