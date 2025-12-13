@@ -108,19 +108,19 @@ WantedBy=multi-user.target
 ### 运行进程守护并添加开机自启：
 
 ```
-systemctl daemon-reload && systemctl enable MTProxy.service $$ systemctl restart MTProxy.service
+systemctl daemon-reload && systemctl enable mtproto.service && systemctl restart mtproto.service
 ```
 
 ### 查看运行状态：
 
 ```
-systemctl status MTProxy.service
+systemctl status mtproto.service
 ```
 
 ### 重新启动服务：
 
 ```
-systemctl restart MTProxy.service
+systemctl restart mtproto.service
 ```
 
 ## 其它问题：
