@@ -1,6 +1,6 @@
 ---
 title: "Socks5搭建教程"
-date: 2025-11-01 12:00:00
+date: 2026-01-25 12:00:00
 ---
 
 ## 安装Dante-Server：
@@ -14,7 +14,7 @@ apt install dante-server -y
 ## 添加代理用户名：
 
 ```
-useradd -M -s /usr/sbin/nologin 要设置的用户名
+useradd 要设置的用户名
 ```
 <!--more-->
 ## 配置密码：
@@ -30,9 +30,9 @@ passwd 上面设置用户名
 ```
 logoutput: syslog
 
-internal: 0.0.0.0 port = 8080
+internal: 网卡名 port = 1080
 
-external: eth0
+external: 网卡名
 
 method: username
 
@@ -40,24 +40,31 @@ user.notprivileged: nobody
 
 client pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
-    log: connect disconnect error
+}
+
+client pass {
+    from: ::/0 to: ::/0
 }
 
 pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
     protocol: tcp udp
-    log: connect disconnect error
+}
+
+pass {
+    from: ::/0 to: ::/0
+    protocol: tcp udp
 }
 ```
 
 #### 配置项说明：
 
 ```
-external：网卡名，使用ip a查询
+external：网卡名，使用ip a查询（大多为eth、ens开头）
 ```
 
 ```
-port = 8080：监听的端口
+port = 1080：Socks5运行的端口
 ```
 
 ## 运行设置：

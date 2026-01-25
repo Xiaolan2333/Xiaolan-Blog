@@ -2,11 +2,9 @@
 
 ### 修改内容：
 
-1.将JsDelivr链接替换为JsdMirror
+1.将JsDelivr、Staticfile的内容替换为JsdMirror
 
-2.将cdn.staticfile.org的链接替换为cdn.staticfile.net
-
-3.F12控制台输出
+2.F12控制台输出
 
 ### 已知BUG：
 
